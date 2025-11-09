@@ -1,0 +1,16 @@
+export const sampleData = {
+  theme: "gradient",
+  name: "John Doe",
+  bio: "Aspiring software engineer passionate about AI and full-stack development.",
+  phone: "+91 9876543210",
+  email: "john.doe@example.com",
+  linkedin: "https://linkedin.com/in/johndoe",
+  github: "https://github.com/johndoe",
+  tenth: "90% - ABC High School (2017)",
+  twelfth: "88% - XYZ Senior Secondary School (2019)",
+  graduation: "B.Tech in Computer Science - DEF University (2023)",
+  postgraduation: "",
+  skills: "React, Node.js, Python, Machine Learning, Azure AI",
+  experience: "Interned at TechCorp, built AI-powered resume builder app.",
+  image: "",
+};

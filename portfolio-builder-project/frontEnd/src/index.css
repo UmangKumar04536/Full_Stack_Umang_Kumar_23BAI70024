@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+html, body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  transition: all 0.4s ease;
+  min-height: 100vh;
+}
+
+/* Themes */
+body[data-theme="light"] {
+  background: #f8fafc;
+  color: #1e293b;
+}
+
+body[data-theme="dark"] {
+  background: #0f172a;
+  color: #f8fafc;
+}
+
+body[data-theme="gradient"] {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}

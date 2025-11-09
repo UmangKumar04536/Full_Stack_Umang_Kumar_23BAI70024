@@ -1,0 +1,198 @@
+.home-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 90%;
+  max-width: 1200px;
+  margin: 30px auto;
+  gap: 30px;
+}
+
+/* Left Pane */
+.left-pane {
+  flex: 1;
+  padding: 20px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(6px);
+}
+
+.right-pane {
+  flex: 1;
+  padding: 20px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(6px);
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+input, textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  resize: none;
+}
+
+.button-row {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.sample-btn,
+.export-btn {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.sample-btn {
+  background: #10b981;
+  color: white;
+}
+
+.sample-btn:hover {
+  background: #059669;
+}
+
+.export-btn {
+  background: #2563eb;
+  color: white;
+}
+
+.export-btn:hover {
+  background: #1d4ed8;
+}
+
+.preview-section {
+  min-height: 300px;
+}
+
+.preview-section h2,
+.preview-section h3 {
+  margin: 10px 0 5px;
+}
+
+
+.form-section label {
+  font-weight: 600;
+  margin-top: 12px;
+  margin-bottom: 5px;
+  color: var(--label-color, #333);
+  display: block;
+}
+
+input, textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  resize: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+textarea {
+  overflow: auto;      /* show scrollbar after max height */
+  min-height: 60px;
+  max-height: 200px;   /* maximum height before scrollbar appears */
+  resize: none;        /* user cannot drag manually */
+  transition: height 0.2s ease;
+}
+
+.profile-image-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.profile-image {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #10b981; /* optional border */
+}
+
+
+.top-container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 15px;
+}
+
+.profile-image-container {
+  flex-shrink: 0;
+}
+
+.profile-image {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+}
+
+.contact-info {
+  font-size: 0.85rem;
+  line-height: 1.3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-info p {
+  margin: 2px 0;
+}
+
+.contact-info a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.education-list {
+  margin-left: 15px;
+  list-style-type: disc;
+  font-size: 0.9rem;
+  line-height: 1.3;
+}
+
+
+.export-btn {
+  background-color: #2563eb;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.export-btn:hover {
+  background-color: #1d4ed8;
+  transform: scale(1.03);
+}
+
+#preview {
+  width: 210mm;
+  min-height: 297mm;
+  padding: 15mm;
+  background: white;
+  box-sizing: border-box;
+  margin: auto;
+}
+

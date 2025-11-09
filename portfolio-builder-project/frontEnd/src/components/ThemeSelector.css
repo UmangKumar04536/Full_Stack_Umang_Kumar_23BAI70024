@@ -1,0 +1,24 @@
+.theme-selector {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.theme-selector button {
+  padding: 8px 14px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.theme-selector button:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+.theme-selector button.active {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
